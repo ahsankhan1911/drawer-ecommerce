@@ -2,12 +2,26 @@
     margin-bottom: 0;
     border-radius: 0;
   }
+  .header-custom {
+      padding-left: 9.5%;
+      padding-right: 9.5%;
+
+  }
   
   .searchInput {
       margin-top: 7px;
   }
   .navbar-search {
     width: 400px;
+  }
+  .section-title {
+    margin: 12px 15px 20px;
+    padding: 5px 1px 6px 12px;
+    border: none;
+    background: #e7e7e7;
+    font-size: 22px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
   }
  
   /* Add a gray background color and some padding to the footer */
@@ -25,6 +39,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    width: 79%;
+    margin: 0 auto;
   }
 
   .bg-img h1, .bg-img p {
@@ -67,7 +83,16 @@
     color: #999;
 }
 
+.breadcrumb-style {
+    margin-top: 22px;
+}
   footer {
     background-color: #f2f2f2;
     padding: 25px;
   }
+
+
+  /* Custom Media Queries */
+
+
+  
