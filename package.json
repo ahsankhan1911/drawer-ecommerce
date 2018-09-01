@@ -2,7 +2,7 @@
   "name": "drawer",
   "version": "1.0.0",
   "description": "Online store in Australia",
-  "main": "server.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ahsankhan1911/drawer-ecommerce.git"
