@@ -1,0 +1,73 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  .searchInput {
+      margin-top: 7px;
+  }
+  .navbar-search {
+    width: 400px;
+  }
+ 
+  /* Add a gray background color and some padding to the footer */
+  
+
+  
+  .active-cyan-4 input[type=text]:focus:not([readonly]) {
+      border: 1px solid #4dd0e1;
+      box-shadow: 0 0 0 1px #4dd0e1;
+  }
+
+
+  .bg-img {
+    background-image: url('/images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .bg-img h1, .bg-img p {
+    color: white;
+  }
+
+  .contact-us {
+    line-height: 30px;
+  }
+
+  .card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+.card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.label-rating { margin-right:10px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-product .price-old {
+    color: #999;
+}
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
