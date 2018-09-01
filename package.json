@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Online store in Australia",
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahsankhan1911/drawer-ecommerce.git"
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -12,5 +16,8 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "8.11.1"
   }
 }
