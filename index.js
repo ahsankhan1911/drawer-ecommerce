@@ -30,5 +30,5 @@ app.get('/products', function(req, res) {
   });
 
 app.listen(process.env.PORT || 5000,function () {
-  console.log('Running server on ' + process.env.PORT);
+  console.log('Running server on ' + process.env.PORT || 5000);
 });
